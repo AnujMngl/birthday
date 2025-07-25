@@ -1,0 +1,98 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #c37c5b, #999f70);
+      border: 3px solid #ff9966;
+      border-radius: 15px;
+      padding: 30px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+      position: relative;
+    }
+
+     .card h1 {
+      font-size: 24px;
+      background: linear-gradient(to right, blue, green);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 15px;
+    }
+
+    .cake-img {
+      width: 100px;
+      margin: 10px auto;
+      display: block;
+     border-radius: 5%;
+    }
+      .wish-text {
+      font-size: 16px;
+      color: #e8e8db;
+      margin-bottom: 20px;
+     
+    }
+
+    .message {
+      background: #70989b;
+      border: 1px dashed #d48fb3;
+      padding: 10px;
+      font-size: 14px;
+      color: #9a3a3a;
+      margin-bottom: 20px;
+      border-radius: 10%;
+    }
+ .surprise-btn {
+      background: linear-gradient(to right, #ff6f61, #ff9966);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .red-pin {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+      background: red;
+      border-radius: 50%;
+      animation-name: box;
+      animation-duration:  2s ;
+      animation-iteration-count: infinite;
+    
+    }
+
+    @keyframes box {
+
+        0% {
+            transform: translate(-400px);
+           
+        }
+        
+        25% {
+            transform: translatey(-400px, 0px);
+           
+        }
+        
+        /* 50% {
+            transform: translate(350px, 3500px);
+        }
+        
+        75% {
+            transform: translate(0px, 350px);
+        }
+        
+        100% {
+            transform: translate(0px, 0px);
+        }
+    }  */
